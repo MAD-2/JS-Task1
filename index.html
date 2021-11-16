@@ -41,7 +41,10 @@
 
       
       //Get Element with qeurySelector
-      
+      queryFifthBox=document.querySelector("div ul #box-5");
+      queryFifthBox.addEventListener("click",function(event){
+        event.target.style.backgroundColor="yellow";
+      });
 
       //Get element by querySelectorAll
       //Iterate boxes through a For of loop to add functionallity
